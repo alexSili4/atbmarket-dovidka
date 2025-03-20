@@ -8,7 +8,452 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <load src="/partials/header.html" /> <load src="/partials/footer.html" />
+    <main class="main-container">
+      <section class="help-page-section">
+        <div class="wrapper-contain">
+          <div class="help-page__row">
+            <h1 class="page-title">Довідка</h1>
+
+            <div class="help-page-content">
+              <div class="help-page-content-info">
+                <div class="help-page-content-info-title-wrap"><p class="help-page-content-info-title">Шукайте відповіді на популярні питання користувачів тут</p></div>
+                <div class="help-page-content-info-links">
+                  <button class="vidget-chat-btn help-page-vidget-chat-btn" type="button">
+                    <span class="help-page-vidget-chat-btn-title">
+                      <img src="/images/help-page/help-page-questions.svg" />
+                      <span class="help-page-vidget-chat-btn-title-text">Онлайн консультант</span>
+                    </span>
+                  </button>
+                  <a href="https://tinyurl.com/2w9u7y2j" target="_blank" class="help-page-vidget-chat-viber" rel="noopener noreferrer">
+                    <img src="/images/help-page/help-page-viber.svg" />
+                  </a>
+                  <a href="https://t.me/atb_market_bot" target="_blank" class="help-page-vidget-chat-telegram" rel="noopener noreferrer">
+                    <img src="/images/help-page/help-page-telegram.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="help-page-questions">
+              <ul class="help-page-questions-list js-help-page-questions-list">
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-atb-card.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Картка АТБ</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Ексклюзивні переваги з карткою АТБ</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-checkout.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Оформлення замовлень</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чому в моєму замовленні відсутні деякі товари?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чому вага певних товарів відрізняється від замовленої?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Як я можу додати чи видалити товар із замовлення?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Як я можу скасувати замовлення?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чи можливо оформити та оплатити замовити якщо я знаходжусь за кордоном?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-delivery.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Доставка</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чому доставка товару не може бути здійснена з найближчого магазину?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Куди звернутись, якщо я незадоволений роботою кур’єра, якістю доставки чи отриманих товарів?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Як я можу здійснити повернення товарів?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-order-payment.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Оплата замовлення</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чому я не можу одразу сплатити своє замовлення?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чому не проходить оплата замовлення на сайті?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чи можу я зробити замовлення сьогодні, а оплатити на наступний день?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Чи є у курʼєрів термінал для оплати замовлення?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-certificates.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Сертифікати</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Що таке Сертифікат та як їм скористуватись?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-e-shop.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Онлайн магазин</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Як зареєструватись на сайті?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Де я можу знайти адресу та місцезнаходження магазинів АТБ?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="help-page-questions-list-item">
+                  <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                    <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                      <span class="help-page-questions-btn-title">
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-codes-and-coupons.svg" />
+                        </span>
+                        <span class="help-page-questions-btn-title-text">Промокоди та Купони</span>
+                        <span class="help-page-questions-btn-title-icon-wrap">
+                          <img src="/images/help-page/help-page-plus.svg" />
+                          <img src="/images/help-page/help-page-minus.svg" />
+                        </span>
+                      </span>
+                    </button>
+                    <div class="help-page-questions-desc js-help-page-questions-desc">
+                      <ul class="help-page-questions-other-questions-list">
+                        <li class="help-page-questions-other-questions-list-item">
+                          <div class="help-page-questions-container js-help-page-questions-container is-hidden">
+                            <button type="button" class="help-page-questions-btn js-help-page-questions-btn">
+                              <span class="help-page-questions-btn-title">
+                                <span class="help-page-questions-btn-title-text">Як скористуватись купоном?</span>
+                                <span class="help-page-questions-btn-title-icon-wrap">
+                                  <img src="/images/help-page/help-page-plus.svg" />
+                                  <img src="/images/help-page/help-page-minus.svg" />
+                                </span>
+                              </span>
+                            </button>
+                            <div class="help-page-questions-desc js-help-page-questions-desc">
+                              <!-- content -->
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>

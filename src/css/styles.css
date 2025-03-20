@@ -1,3 +1,15 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
 @import url('./utilities.css');
 @import url('./variables.css');
+
+.help-page-questions-desc {
+  /*  */
+  max-height: 500px;
+  /*  */
+  overflow: hidden;
+  transition: max-height var(--transition-duration-and-func);
+}
+
+.help-page-questions-container.is-hidden > .help-page-questions-desc {
+  max-height: 0px !important;
+}

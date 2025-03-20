@@ -34,7 +34,7 @@ a {
   transform: scale(0);
 }
 
-.is-hidden {
+.is-hidden-win {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
